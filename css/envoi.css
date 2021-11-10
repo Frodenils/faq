@@ -1,0 +1,29 @@
+
+input[type="submit"], input[type="button"] {
+  width:12%;
+  font-size:18px;
+  height:4%;
+  border-radius:10px;
+  display: block;
+  position: relative;
+  margin-top:150px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+ 
+input[name="Wrong"]:hover{ /* #D8D0F3  #989CB9  #5A639C */
+  background: -webkit-radial-gradient(center, #E5B4B4 0%, #C76E6E 40%, #CD1E1E 100%);
+  background: -moz-radial-gradient(center, #E5B4B4 0%, #C76E6E 40%, #CD1E1E 100%);
+  background: -o-radial-gradient(center, #E5B4B4 0%, #C76E6E 40%, #CD1E1E 100%);
+  background: -ms-radial-gradient(center, #E5B4B4 0%, #C76E6E 40%, #CD1E1E 100%);
+  background: radial-gradient(center, #E5B4B4 0%, #C76E6E 40%, #CD1E1E 100%);
+}
+
+input[name="Correct"]:hover{ /* #D8D0F3  #989CB9  #5A639C */
+  background: -webkit-radial-gradient(center, #D8D0F3 0%, #989CB9 40%, #5A639C 100%);
+  background: -moz-radial-gradient(center, #D8D0F3 0%, #989CB9 40%, #5A639C 100%);
+  background: -o-radial-gradient(center, #D8D0F3 0%, #989CB9 40%, #5A639C 100%);
+  background: -ms-radial-gradient(center, #D8D0F3 0%, #989CB9 40%, #5A639C 100%);
+  background: radial-gradient(center, #D8D0F3 0%, #989CB9 40%, #5A639C 100%);
+}

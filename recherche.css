@@ -1,0 +1,53 @@
+h1 {
+	color:white;
+	text-shadow:5px 5px 1px #676767;
+}
+
+h3 {
+	color:white;
+}
+
+
+input[type=search] {
+/* rajouter :hover si on veut agir uniquement lorsque la souris passe sur l'élément */ 
+	border-radius:10px;
+	box-shadow: 10px 10px 5px #676767; /* Effet d'ombre sur l'input */
+	width:200px; 
+	height:25px;
+}
+
+
+input::placeholder {
+	color:#2980b9;
+	padding-left:5px; /* Décalage de 5px pour le placeholder */
+}
+
+.div_recherche {
+	width: auto;
+	margin-left: 250px;
+	height: 100px;
+	padding: 15px;
+	background: #9D9D9B;
+}
+
+.div_resultats_recherche {
+	font-size:20px;
+	background: #9D9D9B;
+	margin-left: 250px;
+}
+.recherche {
+	width:24px;
+	height:24px;
+	margin-left:5px;
+	margin-bottom:50px;
+	position:absolute;
+	white-space: nowrap;
+}
+
+.div_results {
+	font-size:20px;
+	min-height:89.5%;
+	margin-left: 250px;
+	padding: 15px;
+	background: #9D9D9B;
+}

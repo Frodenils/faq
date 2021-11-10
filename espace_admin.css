@@ -1,0 +1,446 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+div#header {
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.logo a {
+	font-size: 2em;
+	color: #122b6d;
+}
+
+.power {
+	float: right;
+	background-color:#fff;
+	margin-top: 30px;
+	margin-right: 15px;
+	display: block;
+	border: 1px solid #122b6d;	
+}
+
+.power:hover {
+	background-color: #AF212F;
+}
+
+
+.power a{
+	color: #122b6d;
+	text-align: center;
+	padding: 5px;
+}
+
+
+img#logolycee {
+	float: left;
+	height: 80px;
+	width: 80px;
+}
+
+div#alert {
+	text-align: center;
+	background-color: #D92600;
+}
+
+div#container {
+	width: 100%;
+	min-height:100%;
+	margin: 0 auto;
+}
+
+.sidebar {
+	width: 250px;
+	/*height: 100%;*/
+	background: #ccc;
+	float: left;
+}
+
+ul#nav {
+	
+}
+
+ul#nav li {
+	list-style: none;
+}
+
+ul#nav li a {
+	height: 50px;
+	display: block;
+	border-bottom: 1px solid #000130;
+	transition : 0.2s;
+}
+
+ul#nav li a:hover {
+	background-color: #9D9D9B ;
+	color: #fff;
+	padding-left: 30px;
+}
+
+ul#nav li a p {
+	padding: 12px;
+	color: #000130;
+	font-size: 0.8em;
+}
+
+
+img#iconemenu{
+	float: left;
+	height: 40px;
+	padding-right: 5px;
+	margin: 5px;
+}
+
+/*ul#nav li a.selected {
+	background-color: #000130 ;
+	color: #fff;
+}*/
+
+.content {
+	width: auto;
+	margin-left: 250px;
+	min-height: 100%;
+	/*height: auto;   /*  A	revoire car pose des bp  */
+	padding: 15px;
+	background: #2d4ea5;
+}
+
+
+/*//////// Profil //////////////////////////////////////////////////////////////////////////////////////*/
+
+div#modifProfile {
+	padding: 5%;
+	border: 1px solid #fff;
+
+}
+
+div#modifProfile td{
+	padding: 5px;
+}
+
+div#modifProfile label{
+	color: #fff;
+}
+
+div#Profile {
+	margin-top: 15px;
+	padding: 5%;
+	border: 1px solid #fff;
+
+}
+
+div#Profile td{
+	padding: 5px;
+}
+
+div#Profile label{
+	color: #fff;
+}
+
+/*//////// Ajouter FAQ //////////////////////////////////////////////////////////////////////////////////////*/
+
+div#plusFAQ{
+	padding: 5%;
+	border: 1px solid #fff;
+}
+
+div#plusFAQ td{
+	padding: 5px;
+	color: #fff;
+	text-align: center;
+	width: 80px;
+}
+
+
+div#LesFAQs {
+	margin-top: 15px;
+	padding: 5%;
+	border: 1px solid #fff;
+
+}
+
+div#LesFAQs td{
+	padding: 5px;
+	border: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+}
+
+
+div#LesFAQs td a{
+	color: #fff;
+	text-decoration : none; 
+}
+
+
+tr#teteFAQ {
+	background-color: #fff;
+}
+
+tr#teteFAQ td{
+	color: #2d4ea5;
+}
+
+
+div#ModifFAQs {
+	margin-top: 15px;
+	padding: 5%;
+	border: 1px solid #fff;
+}
+
+div#ModifFAQs label{
+	color: #fff;
+	padding: 5px;
+}
+
+div#FAQaModifier {
+	margin-top: 15px;
+	padding: 5%;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+div#FAQaModifier input{
+	margin: 5px;
+	
+}
+/*//////// Gérer F.A.Q ///////////////////////////////////////////////////////////////////////////////////*/
+
+div#newEle{
+	padding: 5%;
+	border: 1px solid #fff;
+}
+
+div#newEle p{
+	color: #fff;
+	padding: 5px;
+	text-decoration: underline;
+}
+
+div#AfficheEle {
+	margin-top: 15px;
+	padding: 15px;
+	border: 1px solid #fff;
+	color: #2d4ea5;
+	background-color: #2d4ea5;
+}
+
+div#AfficheEle td{
+	padding: 5px;
+	margin-top: 15px;
+	border: 1px solid #2d4ea5;
+	color: #2d4ea5;
+}
+
+div#AfficheEle td a{
+	color: #2d4ea5;
+	text-decoration : none; 
+}
+
+
+div#block {
+	padding: 10px;
+	margin-top: 15px;
+	border: 1px solid #2d4ea5;
+	color: #2d4ea5;
+	background-color:  #fff;
+
+}
+
+div#block fieldset{
+	padding: 5px;
+	margin-top: 5px;
+	border-color: #2d4ea5;
+}
+
+
+.Modif_gFAQ {
+	color: #f00;
+	display: none;
+}
+
+.Ajouter_gFAQ {
+	color: #f00;
+	display: none;
+}
+
+h2 {
+	color: #fff;
+}
+
+/*//////// Ajouter Profil //////////////////////////////////////////////////////////////////////////////////////*/
+
+div#Plus2Profile {
+	margin-top: 15px;
+	padding: 15px;
+	border: 1px solid #fff;
+	color: #FFF;
+	background-color: #2d4ea5;
+	margin-bottom: 12px;
+}
+
+div#Plus2Profile td{
+	padding: 5px;
+	margin-top: 15px;
+	border: 1px solid #2d4ea5;
+	color: #FFF;
+}
+
+div#Plus2Profile td input {
+	padding: 4px;
+}
+
+
+div#Moins2Profile {
+	margin-top: 15px;
+	padding: 15px;
+	border: 1px solid #fff;
+	color: #FFF;
+	background-color: #2d4ea5;
+}
+
+#labelPlusProfile {
+	color: #fff;
+	font-weight: bold;
+	margin: 15px;
+}
+
+/*////// Modifier Profil  /////////////////////////////////////////////////////////////////////////*/
+
+label#modifDroitUti {
+	color: #fff;
+	font-weight: bold;
+}
+
+div#modifDroitUti {
+	margin-top: 15px;
+	padding: 5%;
+	border: 1px solid #fff;
+
+}
+
+div#modifDroitUti td{
+	height: 30px;
+	width: 60px;
+	padding: 5px;
+	border: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+}
+
+
+div#modifDroitUti td a{
+	color: #fff;
+	text-decoration : none; 
+}
+
+
+tr#teteDroit {
+	background-color: #fff;
+}
+tr#teteDroit td{
+	color: #2d4ea5;
+}
+
+td#teteDroit {
+	background-color: #fff;
+}
+td#teteDroit p{
+	color: #2d4ea5;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.public {
+	background-color: #2D9F40;
+}
+
+.privée {
+	background-color:#AF212F;
+}
+
+
+a.mobile{
+	display: none;
+	color: #fff;
+	background-color: #000130 ;
+	text-align: center;
+	padding: 7px;
+}
+
+.credit {
+	/*position: fixed;*/
+	bottom: 0px;
+	width: 100%;
+	border-top: 1px solid #000130;
+	text-align: center;
+	color: #122b6d;
+	background-color:#fff; 
+}
+
+
+@media only screen and (max-width: 500px) {
+
+	div#header {
+		height: 50px;
+	}
+
+	img#logolycee {
+		height: 50px;
+		width: 50px;
+	}
+
+	/*.power {
+		height: 50px;
+		width: 50px;
+	}
+	
+	.power img{
+		margin: 3px;
+		height: 44px;
+	}*/
+
+	.logo a {
+		font-size: 1em;
+	}
+
+	a.mobile{
+		display: block;
+	}
+
+	.sidebar {
+		display: none;
+		width: 100%;
+	}
+
+	.content {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+
+	.sidebar {
+		height: 100%;
+		display: block;
+	}
+}

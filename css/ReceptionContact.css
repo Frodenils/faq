@@ -1,0 +1,112 @@
+body{
+	background-color: rgba(45, 78, 165,1);
+}
+
+#tete_de_page {
+	border : 2px solid black;
+}
+
+#Non_Traités {
+	text-decoration: underline;
+}
+
+.div_nouveau_formulaire {
+	width : 100%;
+	color:white;
+	padding-left:10px;
+	border:2px solid #59A1CF;
+	border-radius:10px;
+	background-color : rgba(89, 161, 207,0.6);
+}
+
+
+.Get_Nom_Form, .Get_Prenom_Form{
+	display:inline;
+	color:black ;
+	white-space:nowrap;
+	position:relative;
+	float:left;
+}
+
+.Get_Prenom_Form {
+	margin-left:5px;
+}
+
+.Get_Classe_Form {
+	text-align: left;
+	position:relative;
+	float:left;
+	font-size:10px;
+}
+
+.Get_Email_Form {
+
+}
+
+.Get_Etat_Traitement_Form {
+	float:right;
+	text-align:right;
+	position:relative;
+	font-size:14px;
+	color:red;
+	border-radius:5px;
+	background-color : rgba(195, 25, 25,0.2);
+}
+
+
+.Get_Etat_Traité_Form {
+	float:right;
+	text-align:right;
+	position:relative;
+	font-size:14px;
+	color:#1AEB0F;
+	border-radius:5px;
+	background-color : rgba(17, 128, 19,0.2);
+}
+
+.Changer_Traitement {
+	text-align:left;
+	position:relative;
+	font-size:12px;
+	border-radius:0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:8px;
+}
+
+.Image_Wrong {
+	height:20px;
+	width:20px;
+}
+
+
+.Get_Texte_Form {
+	margin-left:10px;
+	border:2px solid #3C3D41;
+	border-radius:5px;
+	background-color : rgba(60, 61, 65,0.3);
+}
+
+form {
+	color:black;
+}
+.Get_Email_Form {
+
+	text-align:right;
+	position:relative;
+	font-size:12px;
+	color:white;
+}
+
+.Get_Date_Envoi_Form {
+	float:right;
+	text-align:right;
+	position:relative;
+	margin-top:2px;
+	font-size:12px;
+	color:white;
+	background-color : rgba(45, 78, 165,0.7);
+}
+/*http://www.zonecss.fr/proprietes-css/opacity-css.html*/
+/*https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/lire-des-donnees-2*/
+
